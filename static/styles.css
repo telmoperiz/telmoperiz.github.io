@@ -1,0 +1,115 @@
+/* Globals */
+:root {
+    --bs-link-color: #19e5e6;
+    --bs-link-hover-color: #14b8b8;
+    --bs-emph-color: #90ee90;
+}
+
+/* Structure of the page */
+.page-container {
+    max-width: 45em;
+}
+
+/* Redefine element looks */
+a {
+    text-decoration: none;
+}
+
+strong {
+    color: var(--bs-emph-color);
+}
+
+/* Options for the text look */
+.text-justify {
+    text-align: justify;
+}
+
+.text-chalk {
+    font-family: "Fredericka the Great", var(--bs-body-font-family);
+}
+
+.text-gray {
+    color: var(--bs-gray-500);
+}
+
+/* Navigation bar */
+.nav-masthead .nav-link {
+    color: var(--bs-gray-500);
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: var(--bs-gray-500);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.nav-masthead .active:hover,
+.nav-masthead .active:focus {
+    border-bottom-color: #fff;
+}
+
+/* Email: guarantee that there is no  */
+.email {
+    min-width: 27ch;
+}
+
+/* Cards */
+.card {
+    --bs-card-spacer-y: 0.25rem;
+    --bs-card-spacer-x: 0rem;
+    --bs-card-cap-padding-y: 0.25rem;
+    --bs-card-cap-padding-x: 0rem;
+    --bs-card-border-width: 0px;
+    --bs-card-cap-bg: var(--bs-dark-rgb);
+}
+
+/* Abstract button */
+.btn-abstract {
+    --bs-btn-padding-y: .1rem;
+    --bs-btn-padding-x: .2rem;
+    --bs-btn-color: var(--bs-emph-color);
+    --bs-btn-border-width: 0.1rem;
+    --bs-btn-border-radius: 0rem;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: var(--bs-emph-color);
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: transparent transparent var(--bs-emph-color) transparent;
+    --bs-btn-active-color: var(--bs-emph-color);
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent transparent var(--bs-emph-color) transparent;
+}
+
+/* Paper button */
+.btn-paper {
+    --bs-btn-padding-y: .1rem;
+    --bs-btn-padding-x: .2rem;
+    --bs-btn-color: var(--bs-link-color);
+    --bs-btn-border-width: 0.1rem;
+    --bs-btn-border-radius: 0rem;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: var(--bs-link-hover-color);
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: transparent transparent var(--bs-link-hover-color) transparent;
+    --bs-btn-active-color: var(--bs-link-color);
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent transparent var(--bs-link-color) transparent;
+    --bs-btn-disabled-border-color: transparent;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-color: var(--bs-gray-500);
+    --bs-btn-disabled-opacity: 1;
+}
+
+.btn-large {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    font-size: calc(1.3rem + .6vw);
+}
